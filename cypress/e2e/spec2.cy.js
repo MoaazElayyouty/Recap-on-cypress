@@ -10,8 +10,8 @@ describe('Ungültige Registrierung', () => {
 
     it('Testfall für Registrierung mit bereits registriertem Benutzer', { tags: '@Regression' }, () => {
 
-
-            // BasePage.ungültigRegister(); 
+            BasePage.gültigeRegistirierung(); 
+            BasePage.ungültigeRegistrierung(); 
 
             BasePage.login(); 
             let username ="z123achil2les43881@haanhwedding.com"; 
