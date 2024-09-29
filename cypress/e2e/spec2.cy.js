@@ -8,7 +8,7 @@ const Jewelry = new JewelryPage();
 
 describe('Ungültige Registrierung', () => {
 
-    it.skip('Testfall für Registrierung mit bereits registriertem Benutzer', { tags: '@Regression' }, () => {
+    it('Testfall für Registrierung mit bereits registriertem Benutzer', { tags: '@Regression' }, () => {
 
 
             // BasePage.ungültigRegister(); 
@@ -20,14 +20,10 @@ describe('Ungültige Registrierung', () => {
             expect(actname).to.equal(username); 
             })
 
-           let carqty=9; 
-           cy.get(".cart-qty").then( (zahl)=> { 
-           let actzahl = zahl.text(); 
-           expect(actzahl).to.equal(carqty); 
-
-           })
-        
-    });
+            // let actualqty = 7; 
+            // cy.get('.cart-qty').then( (qty)=>{ 
+            // let expectqty = qty.text()
+            // expect(actualqty).to.equal(expectqty)})
+            })});
 
 
-});
