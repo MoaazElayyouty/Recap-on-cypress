@@ -8,16 +8,16 @@ const MainPage = new StartSeite();
 const Jewelry = new JewelryPage();
 
 // Test Suite für Register und Invalid Register
-describe("Valid register and invalid register", () => {
+describe("Valid register and invalid register to test the testcase ", () => {
 
 
   //Testfall für eine erfolgreiche Bestellung von Schmuck
-  it('Ordering a Jewelry successfully', { tags: "@Smoke" }, function() {
+  it('Ordering a Jjewelry successfully', { tags: "@Smoke" }, function() {
     BasePage.gültigeRegistirierung();
   });
 
   // Testfall für Registrierung mit bereits registriertem Benutzer
-  it('User registers with already registered User', { tags: '@Smoke' }, () => {
+  it('User registers with already already registered User', { tags: '@Smoke' }, () => {
     BasePage.ungültigeRegistrierung();
   });
 

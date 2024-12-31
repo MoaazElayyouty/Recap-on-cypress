@@ -8,7 +8,7 @@ const Jewelry = new JewelryPage();
 
 describe('Ungültige Registrierung', () => {
 
-    it('Testfall für Registrierung mit bereits registriertem Benutzer', { tags: '@Regression' }, () => {
+    it('Testfalll für Registrierung mit bereits registriertem Benutzer', { tags: '@Regression' }, () => {
 
             BasePage.gültigeRegistirierung(); 
             BasePage.ungültigeRegistrierung(); 
